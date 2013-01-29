@@ -1,0 +1,22 @@
+{"config":{
+	"basic":{
+		"i18nshort":"あ你äōҾӲ",
+		"i18nlong":"!>[~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你"
+	},
+	"key":{
+		"ios":{
+			"cert":"assets\/éè儀絵印んずぐ\/LichuanIQEKey.p12",
+			"profile":"assets\/éè儀絵印んずぐ\/Lichuanlu_ipad.mobileprovision"
+		},
+		"android":"",
+		"blackberry":{
+			"db":"assets\/éè儀絵印んずぐ\/barsigner.db",
+			"csk":"assets\/éè儀絵印んずぐ\/barsigner.csk"
+		}
+	},
+	"newapp":{
+		"path":"assets\/あ你äōҾӲ.zip"
+	}
+	
+}
+}

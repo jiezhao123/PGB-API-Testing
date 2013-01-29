@@ -1,0 +1,22 @@
+
+
+<?xml version="1.0" encoding="UTF-8">
+<config>
+	<basic>
+		<i18nlong>!>[~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你</i18n>	
+		<i18nshort>あ你äōҾӲ</i18nshort>
+	</basic>
+	<key>
+		<ios>
+			<cert>assets/éè儀絵印んずぐ/LichuanIQEKey.p12</cert>
+			<profile>assets/éè儀絵印んずぐ/Lichuanlu_ipad.mobileprovision</profile>
+		</ios>
+		<android>
+		</android>
+		<blackberry>
+		</blackberry>	
+	</key>
+	<new>
+		<path></path>
+	</new>	
+</config>	
