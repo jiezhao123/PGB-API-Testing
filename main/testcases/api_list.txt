@@ -1,0 +1,38 @@
+
+// Edit account
+// To test email address, username with i18n characters
+PUT  https://build.phonegap.com/api/v1/me/
+
+// Signing Keys
+// To test app title and signning key file with i18n characters
+POST https://build.phonegap.com/api/v1/keys/:platform
+
+// New App
+// To test title and file path with i18n characters
+POST https://build.phonegap.com/api/v1/apps/
+
+// Builds
+// To test if building each platform works
+POST https://build.phonegap.com/api/v1/apps/:id/build
+
+// Collaborators
+// add collaborators of roles dev & tester
+// change role from dev/tester to tester/dev
+POST https://build.phonegap.com/api/v1/apps/:id/collaborators
+PUT  https://build.phonegap.com/api/v1/apps/:id/collaborators/:id
+
+// Configuration
+// To test icon file name&type, description, version with i18n characters
+PUT  https://build.phonegap.com/api/v1/apps/:id/
+
+// Settings
+// To test title and .zip filename&filepath with i18n characters
+PUT  https://build.phonegap.com/api/v1/apps/:id/
+
+// Config XML
+// change name and description in config.xml file with i18n characters
+PUT  https://build.phonegap.com/api/v1/apps/:id/
+
+// Share app
+// download each platform app
+GET  https://build.phonegap.com/api/v1/apps/:id/:platform
