@@ -1,22 +1,41 @@
-{"config":{
-	"basic":{
-		"i18nshort":"あ你äōҾӲ",
-		"i18nlong":"!>[~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你"
-	},
-	"key":{
-		"ios":{
-			"cert":"assets\/éè儀絵印んずぐ\/LichuanIQEKey.p12",
-			"profile":"assets\/éè儀絵印んずぐ\/Lichuanlu_ipad.mobileprovision"
+{
+	"config":{
+		"userinfo": {
+			"user": "shuai.yan@dilatoit.com",
+			"passwd": "yanshuai110",
+            "username": "ÇÐäÿ×÷ĊęĮĿōŘťſЊџusername",
+            "bad_email_address": "emailęĮĿ@address.com"
 		},
-		"android":"",
-		"blackberry":{
-			"db":"assets\/éè儀絵印んずぐ\/barsigner.db",
-			"csk":"assets\/éè儀絵印んずぐ\/barsigner.csk"
+		"basic":{
+			"i18nshort":"あ你äōҾӲ",
+			"i18nlong":"!>[~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你"
+		},
+		"key":{
+			"ios":{
+				"cert":"assets\/ASSéè儀絵印んす\/LichuanIQEKey.p12",
+				"profile":"assets\/ASSéè儀絵印んす\/Lichuanlu_ipad.mobileprovision"
+			},
+			"android":{
+				"keystore": "assets\/ASSéè儀絵印んす\/android-dilato.keystore"
+			},
+			"blackberry":{
+				"db":"assets\/ASSéè儀絵印んす\/barsigner.db",
+				"csk":"assets\/ASSéè儀絵印んす\/barsigner.csk"
+			}
+		},
+		"newapp":{
+			"path":"assets\/anotherあ你äōҾӲ.zip"
+		},
+        "anotherNewApp": {
+            "path":"assets\/anotherあ你äōҾӲ.zip"
+        },
+		"configurationProp" : {
+			"iconFile" : "assets\/ASSéè儀絵印んす\/goodイ儀絵印rgるう.jpeg",
+			"title" : "!>[~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你",
+			"package" : "pkgéè儀絵印んずぐ",
+            "descriptionStr" : "Description~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你Description",
+			"version" : "99.9儀絵印ん",
+			"desc" : "!>[~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨあ你äōҾӲ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你"
 		}
-	},
-	"newapp":{
-		"path":"assets\/あ你äōҾӲ.zip"
 	}
-	
-}
 }
