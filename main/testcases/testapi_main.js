@@ -9,6 +9,9 @@ var configuration   = require('./testapi_configuration');
 var shareapp        = require('./testapi_shareapp');
 var settings        = require('./testapi_settings');
 var configxml       = require('./testapi_configxml');
+var unlock          = require('./testapi_unlock');
+
+var getEachKeysInfo = require('./GetEachKeysInfo');
 
 
 var util    = require('./util');
@@ -21,7 +24,11 @@ var userinfo = {
 	password: data.config.userinfo.passwd
 };
 
-client.auth(userinfo, function(e, api) {
+var userinfo_bytoken = {
+    token: data.config.userinfo.token
+};
+
+client.auth(userinfo_bytoken, function(e, api) {
 	if (e) {
 		console.log('login error',e);   
 		return;
@@ -45,5 +52,8 @@ client.auth(userinfo, function(e, api) {
 
 //  configxml.runcase(api);
 
+//  unlock.runcase(api);
+
+//  getEachKeysInfo.runcase(api);
 
  });
