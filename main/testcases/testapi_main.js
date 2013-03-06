@@ -24,11 +24,7 @@ var userinfo = {
 	password: data.config.userinfo.passwd
 };
 
-var userinfo_bytoken = {
-    token: data.config.userinfo.token
-};
-
-client.auth(userinfo_bytoken, function(e, api) {
+client.auth(userinfo, function(e, api) {
 	if (e) {
 		console.log('login error',e);   
 		return;
