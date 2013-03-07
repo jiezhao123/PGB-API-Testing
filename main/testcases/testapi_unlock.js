@@ -1,4 +1,3 @@
-var data = require('./testapi_data.json');
 
 var options_ios = {
     form: {
@@ -26,7 +25,6 @@ var options_blackberry = {
 };
 
 var runcase = function(api){
-
     // Good
     api.put('/keys/ios/54642', options_ios, function(e, data) {
         console.log('ios error:', e);
@@ -44,7 +42,6 @@ var runcase = function(api){
         console.log('bb error:', e);
         console.log('bb data:', data);
     });
-
 }
 
 module.exports.runcase = runcase;
