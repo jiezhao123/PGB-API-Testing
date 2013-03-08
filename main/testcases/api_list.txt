@@ -36,3 +36,10 @@ PUT  https://build.phonegap.com/api/v1/apps/:id/
 // Share app
 // download each platform app
 GET  https://build.phonegap.com/api/v1/apps/:id/:platform
+
+// Whole process
+// unlock signing key, attach signing key to app, build app, download app
+PUT  https://build.phonegap.com/api/v1/keys/:platform/:id
+PUT  https://build.phonegap.com/api/v1/apps/:id
+POST https://build.phonegap.com/api/v1/apps/:id/build
+GET  https://build.phonegap.com/api/v1/apps/:id/:platform

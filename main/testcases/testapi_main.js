@@ -9,6 +9,9 @@ var configuration   = require('./testapi_configuration');
 var shareapp        = require('./testapi_shareapp');
 var settings        = require('./testapi_settings');
 var configxml       = require('./testapi_configxml');
+var unlock          = require('./testapi_unlock');
+
+var getEachKeysInfo = require('./GetEachKeysInfo');
 
 
 var util    = require('./util');
@@ -45,5 +48,8 @@ client.auth(userinfo, function(e, api) {
 
 //  configxml.runcase(api);
 
+//  unlock.runcase(api);
+
+//  getEachKeysInfo.runcase(api);
 
  });
