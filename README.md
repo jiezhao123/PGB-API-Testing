@@ -61,4 +61,6 @@ wholeProc/testapi_for_iOS.js -- test case for whole process of creating an app o
 
 wholeProc/testapi_for_BlackBerry.js -- test case for whole process of creating an app of BlackBerry
 
+WindowsRelated/  -- test cases for testing using files of Windows' dir format 
+
 util.js -- Utilities trying to get the latest app ID and its collaborators ID
