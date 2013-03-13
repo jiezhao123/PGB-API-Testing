@@ -1,0 +1,28 @@
+{
+    "config":{
+        "basic":{
+            "i18nshort":"あ你äōҾӲ",
+            "i18nlong":"!>[~12AFdz¡¼«¶ÇÐäÿ×÷ĊęĮĿōŘťſЊџЛяѨ҉ҝҾӲӼͲϟϺ͵ͺͼ;΄Όήϋϗϯϲϳ϶ϸϼϾἇἿώ῀ῼあ你"
+        },
+        "userinfo": {
+            "user": "shuai.yan@dilatoit.com",
+            "passwd": "yanshuai110"
+        },
+        "key":{
+            "ios":{
+                "cert":"..\\assets\\ASSéè儀絵印んす\\LichuanIQEKey_WindowsRelated.p12",
+                "profile":"..\\assets\\ASSéè儀絵印んす\\Lichuanlu_ipad_WindowsRelated.mobileprovision"
+            },
+            "android":{
+                "keystore": "..\\assets\\ASSéè儀絵印んす\\android-dilato_WindowsRelated.keystore"
+            },
+            "blackberry":{
+                "db":"..\\assets\\ASSéè儀絵印んす\\barsigner_WindowsRelated.db",
+                "csk":"..\\assets\\ASSéè儀絵印んす\\barsigner_WindowsRelated.csk"
+            }
+        },
+        "newapp":{
+            "path":"..\\assets\\anotherあ你äōҾӲ_WindowsRelated.zip"
+        }
+    }
+}
