@@ -22,8 +22,8 @@ client.auth(userinfo, function(e, api) {
         return;
     }
 
-    //for_iOS.runcase(api);
-     for_Android.runcase(api);
-    // for_BlackBerry.runcase(api);
+    for_iOS.runcase(api);
+    for_Android.runcase(api);
+    for_BlackBerry.runcase(api);
 
 });

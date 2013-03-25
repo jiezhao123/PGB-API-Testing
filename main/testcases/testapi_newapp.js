@@ -31,7 +31,7 @@ var options_pubrepo = {
 };
 
 var runcase = function(api){
-
+/*
     api.post('/apps', options_pubrepo, function(e, data) {
         if(e) {
             var errMsg = "New App -> Create new app with public repo fail\n\tThe error message was\n\t"
@@ -41,8 +41,7 @@ var runcase = function(api){
             console.log('New App -> Create new app with public repo: pass'.green);
         }
     });
-
-    /*
+*/
     api.post('/apps', options_zip, function(e, data) {
         if(e) {
             var errMsg = "New App -> Create new app with .zip file fail\n\tThe error message was\n\t"
@@ -52,7 +51,5 @@ var runcase = function(api){
             console.log("New App -> Create new app with .zip file: pass".green);
         }
     });
-    */
-
 }
 module.exports.runcase = runcase;
